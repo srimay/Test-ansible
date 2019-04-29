@@ -3,7 +3,7 @@
   tasks:
   - name: Copy a file to vastech folder
     copy:
-     src: /repo/test.txt
+     src: /var/lib/jenkins/workspace/Test-proj/repo/test.txt
      dest: /home
      
  
