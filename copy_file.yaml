@@ -1,0 +1,9 @@
+---
+- hosts: wiseskool
+  tasks:
+  - name: Copy a file to vastech folder
+    copy:
+     src: /repo/test.txt
+     dest: /home
+     
+ 

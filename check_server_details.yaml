@@ -12,3 +12,5 @@
     register: shell_result
  
   - debug: var=shell_result
+
+- include: copy_file.yaml
