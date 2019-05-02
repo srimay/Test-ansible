@@ -13,4 +13,4 @@
  
   - debug: var=shell_result
 
-- include: copy_file.yaml
+#- include: copy_file.yaml
