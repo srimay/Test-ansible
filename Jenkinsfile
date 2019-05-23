@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Execute Ansible Scripts') {
             steps {
-                sh 'sudo ansible-playbook /home/srimay/Documents/ansible/server/check_server_details.yaml'
+                sh 'sudo ansible-playbook check_server_details.yaml'
             }
         }
         stage('Code Executed') {
